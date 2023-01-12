@@ -52,7 +52,7 @@ body{
 }
 
 .main{
-  background-image: url(/public/reactjs-icon\ 2.png);
+  background-image: url(../public/reactjs-icon\ 2.png);
   background-repeat: no-repeat;
   background-position: right;
 }
