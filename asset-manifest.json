@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/Why-react/static/css/main.073c9b0a.css",
-    "main.js": "/Why-react/static/js/main.96017aea.js",
-    "static/js/787.ee85593b.chunk.js": "/Why-react/static/js/787.ee85593b.chunk.js",
-    "static/media/logo.svg": "/Why-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Why-react/static/css/main.9849eb2a.css",
+    "main.js": "/Why-react/static/js/main.9dc72d75.js",
     "index.html": "/Why-react/index.html",
-    "main.073c9b0a.css.map": "/Why-react/static/css/main.073c9b0a.css.map",
-    "main.96017aea.js.map": "/Why-react/static/js/main.96017aea.js.map",
-    "787.ee85593b.chunk.js.map": "/Why-react/static/js/787.ee85593b.chunk.js.map"
+    "main.9849eb2a.css.map": "/Why-react/static/css/main.9849eb2a.css.map",
+    "main.9dc72d75.js.map": "/Why-react/static/js/main.9dc72d75.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.96017aea.js"
+    "static/css/main.9849eb2a.css",
+    "static/js/main.9dc72d75.js"
   ]
 }
