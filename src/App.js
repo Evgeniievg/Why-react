@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <h1>Hello</h1>
+  <>
+  <Navbar />
+  <Main />
+  </>
   );
 }
 

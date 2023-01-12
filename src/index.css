@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  margin: auto;
+  background-color: #282D35;
 }
+
+.header{
+  background-color: #21222A;
+}
+
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  height: 90px;
+  color: white;
+  align-items: center;
+}
+
+.header__left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__left_text{
+  margin: 0;
+  color: #61DAFB;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: calc(10px + 22 * (100vw / 1440));
+  line-height: 27px;
+}
+
+.header__image{
+  width: 40px;
+  height: 40px;
+}
+
+.header__text{
+  margin: 0;
+  color: #DEEBF8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: calc(8px + 22 * (100vw / 1440));
+  line-height: 20px;
+}
+
+.main{
+  background-image: url(/public/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main__wrapper{
+  width: 90%;
+  margin: auto;
+}
+
+.main__text{
+  color: #fff;
+  margin: 57px 0 46px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: calc(16px + 30 * (100vw / 1440));
+  line-height: 47px;
+}
+
+.main__list_item{
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: calc(12px + 24 * (100vw / 1440));
+  line-height: 30px;
+  color: #fff;
+}
+
+.main__list_item::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1600px) {
+  .main__list_item{
+    margin-bottom: 50px;
+  }
+  .main{
+    padding: 100px;
+  }
+  .header__wrapper{
+    height: 120px;
+  }
+  .main__list_item::marker{
+    font-size: 3rem;
+  }
+}
+
