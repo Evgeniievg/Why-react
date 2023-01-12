@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Why-react/static/css/main.9849eb2a.css",
-    "main.js": "/Why-react/static/js/main.9dc72d75.js",
+    "main.js": "/Why-react/static/js/main.53bf323b.js",
     "index.html": "/Why-react/index.html",
     "main.9849eb2a.css.map": "/Why-react/static/css/main.9849eb2a.css.map",
-    "main.9dc72d75.js.map": "/Why-react/static/js/main.9dc72d75.js.map"
+    "main.53bf323b.js.map": "/Why-react/static/js/main.53bf323b.js.map"
   },
   "entrypoints": [
     "static/css/main.9849eb2a.css",
-    "static/js/main.9dc72d75.js"
+    "static/js/main.53bf323b.js"
   ]
 }
